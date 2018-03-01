@@ -21,6 +21,7 @@ typedef int (* NodeTypeNameCmp) (KeyType *left, KeyType *right);
     NodeTypeName *tail; \
 }ListTypeName;
 
+
 /* min --> max */
 
 #define InsertNode(NodeTypeName, targetList, item, err) do { \
