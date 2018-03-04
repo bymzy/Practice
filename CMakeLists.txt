@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 11)
 add_subdirectory(OffsetofStruct)
 add_subdirectory(UnionStruct)
 add_subdirectory(List)
+add_subdirectory(BinarySearch)
 
