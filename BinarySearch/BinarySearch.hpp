@@ -6,7 +6,7 @@
 #define PRACTICE_BINARYSEARCH_HPP
 
 /* data is in ascending order */
-int BinarySearch(int *data, int size, int key, int& ge, int &lt) {
+int BinarySearch(const int *data, int size, int key, int& ge, int &lt) {
     int low = 0;
     int high = size - 1;
     int mid = 0;
@@ -37,7 +37,7 @@ int BinarySearch(int *data, int size, int key, int& ge, int &lt) {
 }
 
 template<typename T, typename  CmpFunc>
-int TemplateBinarySearch(T *data, int size, CmpFunc cmp, T *key, int &ge, int &lt)
+int TemplateBinarySearch(const T *data, int size, CmpFunc cmp, T *key, int &ge, int &lt)
 {
     int low = 0;
     int high = size - 1;

@@ -3,11 +3,10 @@
 //
 
 #include <assert.h>
-#include <string.h>
 #include <iostream>
 #include "BinarySearch.hpp"
 
-int IntCompare(int *left, int *right)
+int IntCompare(const int *left, const int *right)
 {
     if (*left > *right) {
         return 1;
