@@ -6,4 +6,5 @@ add_subdirectory(OffsetofStruct)
 add_subdirectory(UnionStruct)
 add_subdirectory(List)
 add_subdirectory(BinarySearch)
+add_subdirectory(MaskAndFlag)
 
