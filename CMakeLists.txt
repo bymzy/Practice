@@ -9,4 +9,6 @@ add_subdirectory(BinarySearch)
 add_subdirectory(MaskAndFlag)
 add_subdirectory(BPlusTree)
 add_subdirectory(MyString)
+add_subdirectory(Hash)
+add_subdirectory(Sort)
 
